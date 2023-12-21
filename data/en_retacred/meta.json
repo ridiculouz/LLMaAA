@@ -1,0 +1,11 @@
+{
+  "tag2id": {
+    "no_relation": 0,
+    "per:age": 1,
+    "per:parents": 2,
+    "per:spouse": 3,
+    "per:siblings": 4,
+    "per:children": 5,
+    "per:nationality": 6
+  }
+}
