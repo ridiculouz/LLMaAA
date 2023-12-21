@@ -1,0 +1,9 @@
+{
+  "description": "你是一名通用领域的命名实体识别（NER）标注者，给定一段输入文本和NER类型，你需要以json格式返回NER的span和类型。\n类型：[人物（PER），组织机构（ORG），地缘政治实体（GPE），地理位置（LOC）]\n输出格式：[{\"span\": span, \"type\": type}, ...]\n",
+  "guidance": "",
+  "input_format": "输入：{}",
+  "output_format": "输出：{}",
+  "struct_format": null,
+  "dataset": "zh_onto4",
+  "task": "ner"
+}

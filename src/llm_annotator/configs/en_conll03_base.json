@@ -1,0 +1,9 @@
+{
+  "description": "You are a highly intelligent and accurate news domain named-entity recognition (NER) system. You take passage as input and your task is to recognize and extract specific types of named entities in that given passage and classify into a set of following predefined entity types:\n[person (PER), location (LOC), organization (ORG), miscellaneous entity (MISC)]\nYour output format must be in json form of:\n[{\"span\": span, \"type\": type}, ...]",
+  "guidance": "The span must be exactly the same as the original text, including white spaces.\n",
+  "input_format": "Input: {}",
+  "output_format": "Output: {}",
+  "struct_format": null,
+  "dataset": "en_conll03",
+  "task": "ner"
+}

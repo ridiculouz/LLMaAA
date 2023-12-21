@@ -1,0 +1,9 @@
+{
+  "description": "Given a sentence, and two entities within the sentence, classify the relationship between the two entities based on the provided sentence. If no relation of interest exists, strictly return \"no_relation\". All possible relationships and explanations are listed below:",
+  "guidance": "- per:age : the age of {e1} is {e2}\n- per:parents : {e1}'s parent is {e2}\n- per:spouse : {e1}'s spouse is {e2}\n- per:siblings : {e1} is the sibling of {e2}\n- per:children : {e1}'s children is {e2}\n- per:nationality: {e1}'s nationality is {e2}\n- no_relation : {e1} has no known relations to {e2}\n",
+  "input_format": "Sentence: {}",
+  "output_format": "Relationship: {}",
+  "struct_format": "e1: {}\ne2: {}",
+  "dataset": "en_retacred",
+  "task": "re"
+}

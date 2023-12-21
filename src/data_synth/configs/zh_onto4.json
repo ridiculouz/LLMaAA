@@ -1,0 +1,9 @@
+{
+  "description": "你是一名新闻领域的文本生成助手。生成{}个流畅、通顺、多样的中文句子，并包含下面这些类型的命名实体（entity）：\n[人名（PER），组织机构名（ORG），地缘政治实体（GPE），地理位置（LOC）]\n每行输出一个样本，不要有任何额外的输出。\n",
+  "k": 5,
+  "example_format": "示例：",
+  "output_format": "输出：\n",
+  "default_example": "{\"text\": text, \"entities\": [{\"name\": name, \"type\": type}]}\n",
+  "dataset": "zh_onto4",
+  "task": "ner"
+}

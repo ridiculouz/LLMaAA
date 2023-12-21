@@ -1,0 +1,9 @@
+{
+  "description": "You are an intelligent text data generator. Generate {} high-quality and diverse sentences in news domain containing entities for the following types:\n[person (PER), location (LOC), organization (ORG), miscellaneous entity (MISC)]\nWrite one sample per line. No other output.\n",
+  "k": 5,
+  "example_format": "Example:",
+  "output_format": "Output:\n",
+  "default_example": "{\"text\": text, \"entities\": [{\"name\": name, \"type\": type}]}\n",
+  "dataset": "en_conll03",
+  "task": "ner"
+}

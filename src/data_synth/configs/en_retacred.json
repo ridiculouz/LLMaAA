@@ -1,0 +1,9 @@
+{
+  "description": "You are an intelligent text data generator. Generate {} high-quality and diverse sentences in news domain containing relational triplet for the following relation types:\n- per:age : the age of SUBJ is OBJ\n- per:parents : SUBJ's parent is OBJ\n- per:spouse : SUBJ's spouse is OBJ\n- per:siblings : SUBJ is the sibling of OBJ\n- per:children : SUBJ's children is OBJ\n- per:nationality: SUBJ's nationality is OBJ\n- no_relation : SUBJ has no known relations to OBJ\nWrite one sample per line in json format. Subject and object must appear in the sentence. No other output.\n",
+  "k": 10,
+  "example_format": "Example:",
+  "output_format": "Output:\n",
+  "default_example": "{\"text\": text, \"subject\": subject, \"object\": object, \"relation\": relation}\n",
+  "dataset": "en_reatacred",
+  "task": "re"
+}
