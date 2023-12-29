@@ -34,7 +34,7 @@
 3. For active annotation (LLMaAA),
 
     - First retrieve demonstations (random/knn) for train/test data with `~/src/demo_retrieval.py`.
-    - Run active annotation with ``~/src/active_annotate.py``. Since the demo indices are static, so the previous annotation results will be store in a cache file.
+    - Run active annotation with ``~/src/active_annotate.py``. Since the demo indices are static, so the previous annotation results will be stored in an auto-generated cache file.
 
 4. For data generation (ZeroGen/FewGen),
     - Run with ``~/src/data_gen.py``.
@@ -44,7 +44,7 @@
 
 ## Adapt to new dataset
 
-1. Prepare the data as NER/RE format.
+1. Prepare the data in NER/RE format.
 2. Setup ``meta.json`` in data directory and ``config_{dataset}.json`` for annotator/generator.
 3. If use demonstration in prompt engineering, you need to build a map from train/test to demo data, with ``~/src/demo_retrieval.py``.
 
