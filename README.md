@@ -45,7 +45,7 @@
 ## Adapt to new dataset
 
 1. Prepare the data in NER/RE format.
-2. Setup ``meta.json`` in data directory and ``config_{dataset}.json`` for annotator/generator.
+2. Setup ``meta.json`` in data directory and ``configs/{dataset}.json`` for annotator/generator. The ``configs`` folder can be found in ``~/src/data_synth/`` (for generator) and ``~/src/llm_annotator`` (for annotator).
 3. If use demonstration in prompt engineering, you need to build a map from train/test to demo data, with ``~/src/demo_retrieval.py``.
 
 ## Citation
